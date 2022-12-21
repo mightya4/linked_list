@@ -19,3 +19,10 @@ class LinkedList:
             current.next = newNode
         else:
             self.head = newNode
+
+    #display method for linked list
+    def printLL(self):
+        current = self.head
+        while(current):
+            print(current.data)
+            current = current.next
