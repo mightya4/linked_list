@@ -26,3 +26,10 @@ class LinkedList:
         while(current):
             print(current.data)
             current = current.next
+
+LL = LinkedList()
+LL.insert(5)
+LL.insert(6)
+LL.insert(7)
+LL.insert(8)
+LL.printLL()
